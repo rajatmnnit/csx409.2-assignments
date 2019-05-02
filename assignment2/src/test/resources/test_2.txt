@@ -1,0 +1,7 @@
+You are asked to collect data for a language analysis project. The goal is to study word co-occurrence. 
+2-1: For each pair of words find the number of times they are adjacent. The order does not matter but there should be no other words in between. For example (“red”, “rose”) may appear 1M  times together. 
+
+2-2: For each pair of words, also report for what fraction of the times they are adjacent.  For example assume (“red”, “rose”) are adjacent 1M times. Also the counts for “red” and “rose” are 100M and 10M times respectively. The expected output is: (“red”, ”rose”) ->  (0.01, 0.1) which indicates “red” is adjacent to a “rose” in 1% of counts for “red” and “rose” is adjacent to “red” in 10% of counts for “rose”.
+
+Deliverables:
+The MapReduce workflow, the input and out pairs for each mapper and reducer.
