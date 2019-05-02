@@ -1,0 +1,8 @@
+Implement a Hadoop MapReduce that for each unique character counts how many words start with it. 
+Example: “red rose is a romantic flower” ->  ‘r’: 3,   ‘i’:1, …
+
+To try your code follow the steps here. For testing, create two text files. Then copy-paste Question-1 here in the first file and Question-2 in the second file. Place them in the input folder and run your code.
+
+Deliverables:
+1- Your code
+2- The output on the test files described above.
